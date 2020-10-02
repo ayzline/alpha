@@ -20,8 +20,8 @@ const auth = {
 	password: 'Roexis758/'
 }
 
-let client =  new LineConnect();
-//let client =  new LineConnect(auth);
+//let client =  new LineConnect();
+let client =  new LineConnect(auth);
 
 client.startx().then(async (res) => {
 	while(true) {
