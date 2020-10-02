@@ -47,7 +47,7 @@ const config = {
   EMAIL_REGEX: /[^@]+@[^@]+\.[^@]+/,
   Headers: {
         'X-Line-Application': 'DESKTOPWIN\t7.18.1\tFDLRCN\t11.2.5',
-        'User-Agent': 'Android Mobile Line/7.18.1',
+        'User-Agent': 'Android Mobile Line/10.16.4',
         'Connection': 'keep-alive'
   },
   FILE_DOWNLOAD_LOCATION: '/../download/',
