@@ -16,8 +16,8 @@ Thanks to @Alfathdirk @TCR_TEAM\n\
 const auth = {
 	authToken: '',
 	certificate: '',
-	email: '',
-	password: ''
+	email: 'alchemia.toram@gmail.com',
+	password: 'Roexis758/'
 }
 
 let client =  new LineConnect();
