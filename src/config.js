@@ -38,7 +38,7 @@ const config = {
   LINE_POST_CONTENT_URL_2ND: 'https://obs-sg.line-apps.com/talk/m/upload.nhn',
   //X_LINE_APP: 'DESKTOPMAC 10.10.2-YOSEMITE-x64    MAC 4.5.0',
   //X_LINE_APP: 'CHROMEOS\t2.1.5\tNadya\tChrome_OS\t1',
-  X_LINE_APP: 'DESKTOPWIN\t5.21.3\tWindows\t10',
+  X_LINE_APP: 'DESKTOPWIN\t7.18.1\tFDLRCN\t11.2.5',
   ip: '127.0.0.1',
   version: '0.0.2',
   revision: 0,
@@ -46,7 +46,9 @@ const config = {
   platform: whichPlatform,
   EMAIL_REGEX: /[^@]+@[^@]+\.[^@]+/,
   Headers: {
-    'User-Agent':'Line/2.1.5'
+        'X-Line-Application': 'DESKTOPWIN\t7.18.1\tFDLRCN\t11.2.5',
+        'User-Agent': 'Android Mobile Line/7.18.1',
+        'Connection': 'keep-alive'
   },
   FILE_DOWNLOAD_LOCATION: '/../download/',
   YT_DL: 'http://www.saveitoffline.com/process/',
