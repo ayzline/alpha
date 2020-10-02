@@ -57,7 +57,7 @@ class LineAPI {
     path: this.config.LINE_HTTP_URL,
     https: true
   }) {
-    options.headers['X-Line-Application'] = 'CHROMEOS\t2.3.9\tChrome_OS\t1';
+    options.headers['X-Line-Application'] = 'DESKTOPWIN\t5.21.3\tWindows\t10';
 //    options.headers['X-Line-Application'] = 'DESKTOPMAC 10.10.2-YOSEMITE-x64    MAC 4.5.0';
 //    options.headers['X-Line-Application'] = 'DESKTOPMAC\t5.3.3-YOSEMITE-x64\tMAC\t10.12.0';
 //    options.headers['X-Line-Application'] = 'CHROMEOS\t2.5.1\tChrome_OS\t1';
