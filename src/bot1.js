@@ -16,12 +16,12 @@ Thanks to @Alfathdirk @TCR_TEAM\n\
 const auth = {
 	authToken: '',
 	certificate: '',
-	email: 'alchemia.toram@gmail.com',
-	password: 'Roexis758/'
+	email: '',
+	password: ''
 }
 
-//let client =  new LineConnect();
-let client =  new LineConnect(auth);
+let client =  new LineConnect();
+//let client =  new LineConnect(auth);
 
 client.startx().then(async (res) => {
 	while(true) {
